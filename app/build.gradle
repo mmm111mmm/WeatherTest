@@ -15,6 +15,7 @@ android {
         applicationId "newfivefour.com.meteotestapp"
         minSdkVersion 16
         targetSdkVersion 27
+        buildToolsVersion "27.0.3"
         versionCode code
         versionName "0.00000-LOOK_AT_THE_VERSION_CODE"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
