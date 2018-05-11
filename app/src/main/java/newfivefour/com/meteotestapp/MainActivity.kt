@@ -25,6 +25,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 var i = 5
                 var j = 5
                 var k = 6
+                var m = 7
                 Thread.sleep(1000)
                 var o: Object? = null
                 o!!.toString()
