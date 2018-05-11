@@ -1,3 +1,4 @@
+
  language: android
  java: oraclejdk8 # We need this if your sdk version is 24
  android:
@@ -18,6 +19,9 @@
      - extra-google-m2repository
      - extra-android-m2repository
      - addon-google_apis-google-19
+
+before_install:
+  - yes | sdkmanager "platforms;android-27"
 
  script:
    - ./gradlew build
